@@ -37,7 +37,7 @@ if(($edit_id>0) && ($action=='edit')){ //edit mode
 <h2>Edit Client Details</h2>
 <?php } else { ?>
 <h2>Add New Client</h2>
-<br/><a title="Create an Invoice" href='<?php echo CREATEINVOICELINK ?>'><img alt="Create an Invoice" src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/createinvoice.png" width="50px"/></a><a title="Check Invoices Status"  href='<?php echo STATUSINVOICELINK ?>'><img alt="Check Invoices Status" src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/invoicestatus.png" width="50px"/></a><br/>
+<br/><a class="invoicelink" title="Create an Invoice" href='<?php echo CREATEINVOICELINK ?>'><span class="dashicons dashicons-welcome-add-page"></span></a><a class="invoicelink" title="Check Invoices Status"  href='<?php echo STATUSINVOICELINK ?>'><span class="dashicons dashicons-exerpt-view"></span></a><br/><br/><br/>
 <?php } ?>
 <form name="addclient" id="addclient" method="POST" >
    <input type="hidden" name="id" value="<?php echo $txtData['id']; ?>" />
@@ -90,7 +90,6 @@ if(($edit_id>0) && ($action=='edit')){ //edit mode
 	<?php } }?>
    </table>
    
-   <div id="developby">Invoice Plugin is Developed by <a target="_blank" href="http://www.sherkspear.com"><img src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/sherkspear.png" width="100px"/></a></div>
-   
+  
 </div>
 

@@ -14,6 +14,14 @@ td a{
   padding:20px 5px;
 }
 
+.invoicelink,
+.dashicons-welcome-add-page,
+.dashicons-exerpt-view,
+.dashicons-id-alt{
+  font-size:40px;
+  width:50px;
+}
+
 #developby{
    text-align:right;
    font-size:9px;

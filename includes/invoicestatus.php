@@ -32,7 +32,7 @@ elseif ($_POST['submit']){
 <?php echo $msg; ?>
 <h2>Invoice Status</h2>
 
-<br/><a title="Create an Invoice" href='<?php echo CREATEINVOICELINK ?>'><img alt="Create an Invoice" src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/createinvoice.png" width="50px"/></a><a title="Add Client"  href='<?php echo CREATECLIENTLINK ?>'><img alt="Add Client" src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/addclient.png" width="50px"/></a><br/>
+<br/><a class="invoicelink" title="Create an Invoice" href='<?php echo CREATEINVOICELINK ?>'><span class="dashicons dashicons-welcome-add-page"></span></a><a class="invoicelink" title="Add Client"  href='<?php echo CREATECLIENTLINK ?>'><span class="dashicons dashicons-id-alt"></span></a><br/><br/><br/>
 <div id="pending-invoices">
 
 
@@ -169,8 +169,6 @@ elseif ($_POST['submit']){
 </div>
 <?php } ?>
 
-
-   <div id="developby">Invoice Plugin is Developed by <a target="_blank" href="http://www.sherkspear.com"><img src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/sherkspear.png" width="100px"/></a></div>
    
 </div>
 

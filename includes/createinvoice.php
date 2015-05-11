@@ -32,7 +32,7 @@ if(count($clients)<1){
 <div id="form-addclient">
 <?php echo $msg; ?>
 <h2>Create an Invoice</h2>
-<br/><a title="Add Client"  href='<?php echo CREATECLIENTLINK ?>'><img alt="Add Client" src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/addclient.png" width="50px"/></a><a title="Check Invoices Status"  href='<?php echo STATUSINVOICELINK ?>'><img alt="Check Invoices Status" src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/invoicestatus.png" width="50px"/></a><br/>
+<br/><a class="invoicelink" title="Add Client"  href='<?php echo CREATECLIENTLINK ?>'><span class="dashicons dashicons-id-alt"></span></a><a class="invoicelink" title="Check Invoices Status"  href='<?php echo STATUSINVOICELINK ?>'><span class="dashicons dashicons-exerpt-view"></span></a><br/><br/><br/>
 
 <form name="createinvoice" id="createinvoice" method="POST" >
    <input type="hidden" name="id" value="<?php echo $txtData['id']; ?>" />
@@ -92,8 +92,6 @@ if(count($clients)<1){
 ?>
 
 <div id="form-displayclients">
-   
-   <div id="developby">Invoice Plugin is Developed by <a target="_blank" href="http://www.sherkspear.com"><img src="<?php echo WP_PLUGIN_URL ?>/sherkinvoice/files/sherkspear.png" width="100px"/></a></div>
    
 </div>
 

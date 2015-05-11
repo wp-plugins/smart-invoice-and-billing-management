@@ -3,7 +3,7 @@
 Plugin Name: Smart Invoice and Billing Management
 Plugin URI: http://www.sherkspear.com/portfolio-item/smart-invoice-and-billing-management/
 Description: Add your clients database and send them invoices through their emails. Manages invoices status and able you to send them reminders.
-Version: 1.0
+Version: 1.1
 Author: Sherwin Calims
 Author URI: http://www.sherkspear.com
 
@@ -57,6 +57,10 @@ class SherkInvoice{
    
    function getBaseDir(){
 	   return dirname(__FILE__);
+	}
+	
+	public static function get_plugin_url() {
+		return plugins_url( '' , __FILE__ ).'/';
 	}
 
    

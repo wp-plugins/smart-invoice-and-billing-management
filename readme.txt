@@ -4,7 +4,7 @@ Donate link: http://www.sherkspear.com/donate/
 Tags: invoice, invoices, send invoices, manage invoices, client invoices, billings, notifier, invoice notifier, create billings, create invoices, add invoices
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,9 @@ Certainly and would love to hear about it. You can contact me through my officia
 
 
 == Changelog ==
+
+= 1.1 =
+* Update icons and add How To Use menu
 
 = 1.0 =
 * An initial upload of the plugin.
