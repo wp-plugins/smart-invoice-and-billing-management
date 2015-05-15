@@ -6,7 +6,7 @@ class SherkInvoiceMenu {
 
     function setupMenu(){
 	
-	   add_menu_page(__('Sherk Invoice Configuration'), __('Create Invoice'), 'manage_options', 'invoice_menu', array(SherkInvoiceMenu,'create_invoice'),'dashicons-media-spreadsheet',5);
+	   add_menu_page(__('Sherk Invoice Configuration'), __('Create Invoice'), 'manage_options', 'invoice_menu', array(SherkInvoiceMenu,'create_invoice'),'dashicons-media-spreadsheet','6.0002');
 	   add_submenu_page('invoice_menu', __('Add New Client'), __('Add New Client'), 'manage_options', 'invoice_add_client', array(SherkInvoiceMenu,'invoice_add_client'));
 	   add_submenu_page('invoice_menu', __('Invoice Status'), __('Invoice Status'), 'manage_options', 'invoice_status', array(SherkInvoiceMenu,'invoice_status'));
 	  

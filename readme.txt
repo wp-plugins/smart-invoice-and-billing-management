@@ -3,8 +3,8 @@ Contributors: sherkspear
 Donate link: http://www.sherkspear.com/donate/
 Tags: invoice, invoices, send invoices, manage invoices, client invoices, billings, notifier, invoice notifier, create billings, create invoices, add invoices
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.1
+Tested up to: 4.2.2
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,13 @@ This section describes how to install the plugin and get it working.
 6. Create Invoice by filling at the invoice fields for the invoice details, date covered, Company, the amount and the customized message for your email.
 7. Submitting the form will send an email to the client and will be notified. A success message will appear on the top of the page telling the user that it was successfully submitted.
 
+You can email me directly for any plugin request or personal modification such as styles and templates at <contact@sherkspear.com> or contact me at <http://sherkspear.com/contact>
+
+Plugin URI: <http://www.sherkspear.com/portfolio-item/smart-todo-wordpress-plugin/> 
+
+
+
+
 == Frequently Asked Questions ==
 
 = Can I request a feature to be added on the plugin? =
@@ -51,9 +58,19 @@ Certainly and would love to hear about it. You can contact me through my officia
 
 
 == Changelog ==
+= 1.2 =
+* Fixed bug on Dashboard Post missing link
 
 = 1.1 =
 * Update icons and add How To Use menu
 
 = 1.0 =
 * An initial upload of the plugin.
+
+
+== Detailed Instruction==
+
+After installing the plugin you will find   
+*Detailed instruction at*    
+**Dashboard-> Create Invoice -> How To Use**    
+`/wp-admin/admin.php?page=smartinvoice_menu_page`
